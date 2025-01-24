@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1476.v90f02a_225559">
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4007.vd705fc76a_34e">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;Clone Repository&apos;) {
+            steps {
+                echo &apos;Cloning repository...&apos;
+                // Replace with your GitHub repository URL
+                git url: &apos;https://github.com/example/repository.git&apos;
+            }
+        }
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &apos;Building the project...&apos;
+                // Example: Compile or build your project here
+                sh &apos;echo &quot;Simulating build process&quot;&apos;
+            }
+        }
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &apos;Running tests...&apos;
+                // Example: Run unit tests or other tests here
+                sh &apos;echo &quot;Simulating test process&quot;&apos;
+            }
+        }
+        stage(&apos;Deploy&apos;) {
+            steps {
+                echo &apos;Deploying application...&apos;
+                // Example: Simulate deployment
+                sh &apos;echo &quot;Simulating deployment process&quot;&apos;
+            }
+        }
+    }
+    post {
+        always {
+            echo &apos;Cleaning up workspace...&apos;
+            cleanWs() // Cleanup workspace after job
+        }
+        success {
+            echo &apos;Pipeline completed successfully!&apos;
+        }
+        failure {
+            echo &apos;Pipeline failed!&apos;
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

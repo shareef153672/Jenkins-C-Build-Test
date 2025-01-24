@@ -1,0 +1,26 @@
+Started by user [8mha:////4O2o9D4YWtEKh8XSZnMYxdbZovzjePCtVN8YwE8wGJLuAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Jenkins-C-Build-Test
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/shareef153672/Jenkins-C-Build-Test.git
+ > git init /var/lib/jenkins/workspace/Jenkins-C-Build-Test # timeout=10
+Fetching upstream changes from https://github.com/shareef153672/Jenkins-C-Build-Test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/shareef153672/Jenkins-C-Build-Test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shareef153672/Jenkins-C-Build-Test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 9d6f3a161846d2cebad2edf8725e0bc86f260dff (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9d6f3a161846d2cebad2edf8725e0bc86f260dff # timeout=10
+Commit message: "Create factorial.c"
+First time build. Skipping changelog.
+[Jenkins-C-Build-Test] $ /bin/sh -xe /tmp/jenkins10326724343202529643.sh
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

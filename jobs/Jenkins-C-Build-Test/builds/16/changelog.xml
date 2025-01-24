@@ -1,0 +1,10 @@
+commit 0de0a7253c47672a7c715e3f7a9d9c52e8b309c8
+tree aea0c4af07eec52b91310ac1e3b68ab9d5f6a98a
+parent 1cff84855cfbb9f6465e9adc6e9d4dd89ca222e4
+author root <root@jenkins.yevn14kubztell34yywgbitkkg.rx.internal.cloudapp.net> 2025-01-21 19:26:57 +0000
+committer root <root@jenkins.yevn14kubztell34yywgbitkkg.rx.internal.cloudapp.net> 2025-01-21 19:26:57 +0000
+
+    deleting the direcotry
+
+
+:160000 000000 430fda3a03227d208ecf6ea137c50145dab794b5 0000000000000000000000000000000000000000 D	Jenkins-C-Build-Test

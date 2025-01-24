@@ -1,0 +1,29 @@
+Started by user [8mha:////4O2o9D4YWtEKh8XSZnMYxdbZovzjePCtVN8YwE8wGJLuAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mabc
+Running as SYSTEM
+Building remotely on [8mha:////4HQGOflLXPJApWm+T9/5VpajLGfodqaq/0iym6xbAsD6AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/shareef/workspace/Jenkins-C-Build-Test
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/shareef153672/Jenkins-C-Build-Test.git
+ > git init /home/shareef/workspace/Jenkins-C-Build-Test # timeout=10
+Fetching upstream changes from https://github.com/shareef153672/Jenkins-C-Build-Test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/shareef153672/Jenkins-C-Build-Test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/shareef153672/Jenkins-C-Build-Test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 1cff84855cfbb9f6465e9adc6e9d4dd89ca222e4 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1cff84855cfbb9f6465e9adc6e9d4dd89ca222e4 # timeout=10
+Commit message: "commit the changes"
+ > git rev-list --no-walk 1cff84855cfbb9f6465e9adc6e9d4dd89ca222e4 # timeout=10
+[Jenkins-C-Build-Test] $ /bin/sh -xe /tmp/jenkins13521873196445945185.sh
++ cd /home/shareef/workspace/Jenkins-C-Build-Test
++ make
+make: Nothing to be done for 'all'.
+Finished: SUCCESS
